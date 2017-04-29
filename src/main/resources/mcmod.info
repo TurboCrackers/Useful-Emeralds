@@ -1,0 +1,16 @@
+[
+{
+  "modid": "tue",
+  "name": "Useful Emeralds",
+  "description": "A mod that makes emeralds a little less useless",
+  "version": "0.1",
+  "mcversion": "1.11.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TurboCrackers"],
+  "credits": "The villagers",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
