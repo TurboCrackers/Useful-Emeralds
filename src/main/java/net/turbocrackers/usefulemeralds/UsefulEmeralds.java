@@ -1,4 +1,4 @@
-package net.turbocrackers.turbospawncommand;
+package net.turbocrackers.usefulemeralds;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -13,12 +13,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(TurboSpawnCommand.MOD_ID)
-public class TurboSpawnCommand {
-    public static final String MOD_ID = "turbospawncommand";
+@Mod(UsefulEmeralds.MOD_ID)
+public class UsefulEmeralds {
+    public static final String MOD_ID = "usefulemeralds";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public TurboSpawnCommand() {
+    public UsefulEmeralds() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
